@@ -8,3 +8,32 @@
   /*put a border around everything to see where it stops and starts*/
   border:none; 
 }
+nav{
+    background-color: lightgray;
+    padding: 1%;
+    
+}
+nav a{
+    
+}
+h1{
+    
+}
+.hero{
+    background-color: red;
+    display:flex;
+    flex-direction: row;
+   
+}
+.hero img{
+    width: 50%;
+    
+}
+.aboutme{
+    width: 40%;
+    padding-top: 5%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
