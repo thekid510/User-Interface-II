@@ -48,6 +48,9 @@ nav button{
 
    
 }
+#top{
+    padding: 2%;
+}
 .hero-img{
     width: 50%;
     
@@ -91,3 +94,11 @@ nav button{
   .aboutme p{
     font-size: 1rem;
   }
+#foot{
+    font-size: 1.2rem;
+    display: flex;
+    text-align: center;
+}
+#foot button{
+    padding: 4%;
+}
