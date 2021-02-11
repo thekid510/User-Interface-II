@@ -17,10 +17,13 @@ h1{
 h2{
     font-size: 1.5rem;
 }
+
 nav{
     background-color: lightgray;
     padding: 1%;
     padding-bottom: 5%;
+    
+    
     
     
 }
@@ -30,6 +33,8 @@ nav button{
     border: 1PX solid black;
     padding: 1%;
     text-align: center;
+    margin-left: 2.5%;
+   
 }
 
 .container{
@@ -72,4 +77,17 @@ nav button{
     width:25%;
     text-align: center;
     padding: 1%;
+  }
+  .home{
+      background-color: black;
+      color: white;
+  }
+  #foot{
+      background-color: lightgray;
+      padding: 10%;
+      display: flex;
+      justify-content: center;
+  }
+  .aboutme p{
+    font-size: 1rem;
   }
