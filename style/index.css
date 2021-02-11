@@ -8,32 +8,68 @@
   /*put a border around everything to see where it stops and starts*/
   border:none; 
 }
+body{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 1.8rem;
+}
+h2{
+    font-size: 1.5rem;
+}
 nav{
     background-color: lightgray;
     padding: 1%;
+    padding-bottom: 5%;
+    
     
 }
-nav a{
-    
+
+nav button{
+    background-color: white;
+    border: 1PX solid black;
+    padding: 1%;
+    text-align: center;
 }
-h1{
-    
-}
-.hero{
-    background-color: red;
+
+.container{
+
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
+    padding: 1%;
+    margin: 1%;
+    
+
    
 }
-.hero img{
+.hero-img{
     width: 50%;
     
 }
 .aboutme{
     width: 40%;
-    padding-top: 5%;
-    margin: 0 auto;
-    display: flex;
+    display:flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    padding-top: 8%;
+    
+
 }
+.projectcont{
+    padding: 10%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+  }
+  .projectcont img{
+      width: 100%;
+      
+  }
+  
+  .box{
+    width:25%;
+    text-align: center;
+    padding: 1%;
+  }
