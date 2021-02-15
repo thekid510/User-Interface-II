@@ -17,7 +17,7 @@ h1{
 }
 h2{
     font-size: 1.5rem;
-    margin: 2%;
+    margin-bottom: 2%;
 }
 
 nav{
@@ -25,10 +25,6 @@ nav{
     padding: 2%;
     padding-bottom: 5%;
     
-    
-    
-    
-
 }
 
 nav button{
@@ -37,7 +33,7 @@ nav button{
     padding: 1%;
     text-align: center;
     margin:0 auto;
-   
+
 }
 
 .container{
@@ -48,8 +44,6 @@ nav button{
     padding: 1%;
     margin: 1%;
     
-
-   
 }
 #top{
     padding: 2%;
@@ -58,20 +52,28 @@ nav button{
     width: 50%;
     
 }
+/*About me section Styling*/
 .aboutme{
     width: 40%;
     display:flex;
     flex-direction: column;
     margin: 0 auto;
     
-    
-
 }
+.aboutme p{
+    font-size: 1rem;
+  }
 .aboutme button{
     padding: 2.5%;
     margin: 0 auto;
+    border-radius: 7px;
 
 }
+div .aboutme p{
+    margin-top: 3%;
+    font-size: 1.2rem;
+    }
+    /*Picture*/
 .projectcont{
     padding: 10%;
     display:flex;
@@ -84,7 +86,7 @@ nav button{
       width: 100%;
       
   }
-  
+  /*Image/box size*/
   .box{
     width:25%;
     text-align: center;
@@ -94,28 +96,20 @@ nav button{
       background-color: black;
       color: white;
   }
+  /*Footer Styling*/
   footer{
       background-color: lightgray;
-      padding: 10%;
+      padding: 8%;
       display: flex;
       justify-content: center;
+      font-size: 1.2rem;
+      display: flex;
+      text-align: center;
   }
-  .aboutme p{
-    font-size: 1rem;
-  }
-footer{
-    font-size: 1.2rem;
-    display: flex;
-    text-align: center;
-}
-footer button{
+     footer button {
     padding: 2.5%;
     margin: 0 auto;
 }
-div .aboutme p{
-margin-top: 3%;
-font-size: 1.2rem;
-}
-footer h4{
+    footer h4{
     padding-bottom: 4%;
 }
