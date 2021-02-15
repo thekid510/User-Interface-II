@@ -133,10 +133,30 @@ div .aboutme p{
 }
 .hero-img{
     
-    width: 100%;
+    width: 80%;
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutme{
+    width: 90%;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+}
+   .footcl{
+    height: 10vh;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+       
+   }
+}   
  
-}
+
  @media(max-width:500px){
     nav{
         flex-direction:column;
