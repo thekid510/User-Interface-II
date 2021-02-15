@@ -33,7 +33,7 @@ nav button{
     border: 1PX solid black;
     padding: 1%;
     text-align: center;
-    margin-left: 2.5%;
+    margin:0 auto;
    
 }
 
@@ -101,4 +101,5 @@ nav button{
 }
 #foot button{
     padding: 4%;
+    margin: 0 auto;
 }
