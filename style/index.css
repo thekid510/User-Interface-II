@@ -30,7 +30,7 @@ nav{
 nav button{
     background-color: white;
     border: 1PX solid black;
-    padding: 1%;
+    padding: 2%;
     text-align: center;
     margin:0 auto;
 
@@ -113,3 +113,36 @@ div .aboutme p{
     footer h4{
     padding-bottom: 4%;
 }
+/*Tablet*/
+@media(max-width:800px){ /*any screen 800px or less, these styles apply!*/
+    nav{
+        background-image:none;
+        background-color:white;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        
+ }
+ nav a{
+     display: flex;
+     text-decoration: none;
+ }
+
+.box{
+    width: 50%;
+}
+.hero-img{
+    
+    width: 100%;
+}
+ 
+}
+ @media(max-width:500px){
+    nav{
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+    }   
+
+
+ }
